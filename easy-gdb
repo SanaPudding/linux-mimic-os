@@ -1,0 +1,4 @@
+tar rem 10.0.2.2:1234
+add-symbol-file ../syscalls/shell.exe 0x8048094
+break main
+
